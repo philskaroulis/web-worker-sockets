@@ -6,10 +6,18 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "express": "^4.18.1",
+    "express-ws": "^5.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@local/event-client": "file:event-client",
+    "@local/event-server": "file:event-server",
+    "@local/json-rpc": "file:json-rpc"
   },
   "scripts": {
     "start": "react-scripts start",
